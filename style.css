@@ -1,0 +1,368 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px;
+    z-index: 2;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.logo{
+    width: 130px;
+    height: 40px;
+    margin-left: 60px;
+}
+a{
+    margin-left: 35px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+.op:hover{
+    color: rgb(7, 183, 7);
+}
+
+nav{
+    position: absolute;
+    right: 80px;
+    top: 30px;
+
+}
+.barra{
+    cursor: default;
+}
+.celular{
+    width: 400px;
+    height: 510px;
+    margin-bottom: -5px;
+   
+}
+.sec1{
+    padding-top: 90px;
+    padding-left: 110px;
+    display: flex;
+    flex-direction: row;
+    background-image: url("imgs/bubbles-dktp.svg"),linear-gradient(to right, rgb(244, 51, 244), purple);
+    background-size: cover;
+    background-position-y: 10%;
+   
+    background-repeat: no-repeat;
+
+  
+   
+}
+.conteudo{
+    width: 280px;
+    height: 495px;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    
+}
+.artigo1{
+    position: relative;
+   
+    
+}
+.titulo2{
+    color: white;
+    font-size: 50px;
+    padding-top: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 50px;
+   
+}
+.baixe{
+    padding: 15px;
+    width: 220px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin-top: 40px;
+    
+    
+}
+.baixe:hover{
+    transform: scale(105%);
+}
+.titulo3{
+    text-align: center;
+    padding-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    padding-bottom: 90px;
+}
+
+.imgss{
+    width: 160px;
+    height: 160px;
+}
+.imgi1{
+    margin-left: 110PX;
+}
+.imgi2{
+    
+    margin-left: 110PX;
+
+
+}
+.imgi3{
+    margin-left: 50px;
+}
+.titulo5{
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.imgs{
+    width: 130px;
+    height: 130px;
+}
+.paragrafos{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+font-weight: bolder;
+line-height: 1.6;
+}
+.sec4{
+text-align: center;
+display: flex;
+flex-direction: row;
+margin-left: 110px;
+margin-bottom: 90px;
+}
+.sec6{
+text-align: center;
+background-image: linear-gradient(to bottom, rgb(223, 30, 223), rgb(60, 4, 90));
+padding-top: 200px;
+padding-bottom: 200px;
+}
+.titulo6{
+color: white;
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo7{
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+margin-top: 80px;
+margin-bottom: 40px;
+}
+.conteudo2{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bolder;
+font-size: 17px;
+cursor: pointer;
+padding: 25px;
+margin-left: 100px;
+width: 1100px;
+position: relative;
+
+}
+.conteudo2:hover{
+text-decoration: underline;
+background-color:  rgb(232, 229, 229);
+}
+.setabaixo{
+position: absolute;
+right: 20px;
+}
+.conteudo3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 120px;
+font-size: 15px;
+font-weight: bolder;
+margin-bottom: 40px;
+display: none;
+}
+.p1{
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.p2{
+margin-bottom: 20px;
+}
+.criar{
+color: rgb(6, 94, 6);
+}
+.setacima{
+position: absolute;
+right: 20px;
+}
+.visivel{
+opacity:1;
+}
+.invisivel{
+opacity: 0;
+}
+.displayy{
+display:  block;
+}
+.criar{
+color: rgb(39, 152, 39);
+}
+.sec7{
+margin-bottom: 70px;
+}
+.sec8{
+background-image: url("imgs/lets-play.svg"),linear-gradient(to right, rgb(244, 51, 244), purple);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 43px;
+color: white;
+text-align: center;
+padding-top: 130px;
+padding-bottom: 130px;
+background-position-y: 55%;
+background-size: cover ;
+background-repeat: no-repeat;
+}
+footer{
+background-color: black;
+color: white;
+position: relative;
+padding-bottom: 50px;
+}
+.logo2{
+    width: 130px;
+    height: 40px;
+    margin-left: 70px;
+    margin-top: 70px;
+    margin-right: 70px;
+    
+}
+.lista2{
+    display: FLEX;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 90px;
+
+}
+.fot1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+}
+.logo3{
+    width: 30px;
+    background-color:white;
+    margin-left: 20px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    
+    
+    
+
+}
+.logo3:hover{
+    background-color:rgb(7, 183, 7); 
+}
+.imgsss{
+    right: 0px;
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+   
+    
+   
+    
+}
+.tituloli{
+    color: rgb(106, 102, 102);
+    font-weight: bolder;
+    font-size: 15px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+.itemfot{
+    font-weight: bolder;
+    font-size: 15px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.itemfot:hover{
+    color: rgb(7, 183, 7);
+}
+.fundinho{
+ background-color: #222326;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ padding: 10px;
+ height: 30px;
+ width: 30px;
+ position: relative;
+ right: 70px;
+ border-radius: 50%;
+ margin-left: 20px;
+ 
+}
+.fot2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    
+}
+.lista3{
+    margin-left: 60px;
+    
+}
+.itemf2{
+    margin-left: 20px;
+    color: #4a4c50;
+    cursor: pointer;
+}
+.itemf2:hover{
+    color: rgb(7, 183, 7);
+
+}
+.BR{
+    color: white;
+    margin-left: 75px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.BR:hover{
+    color: rgb(7, 183, 7);
+}
+.fot3{
+    margin-right: 50px;
+    color: #4a4c50;
+}
+.terra{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 95px;
+    
+}
+.AB{
+    color: white;
+}
