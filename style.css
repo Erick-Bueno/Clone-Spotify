@@ -516,7 +516,14 @@ padding-bottom: 50px;
         font-size: 9px;
     }
     .conteudo2{
-        font-size: 15px
+        font-size: 15px;
+        padding-right: 45px;
+    }
+    .setabaixo{
+        top: 23px;
+    }
+    .setacima{
+        top: 23px;
     }
 }
 @media screen and (max-width:565px) {
@@ -578,13 +585,14 @@ padding-bottom: 50px;
     
   
 }
+
 .v-menu-m2{
     font-size: 20px;
 }
 a{
     margin-left: -2px;
 }
-   
+
 }
 @media screen and (max-width:375px){
     .conteudo2{
