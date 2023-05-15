@@ -525,6 +525,9 @@ padding-bottom: 50px;
     .setacima{
         top: 23px;
     }
+    .sec7{
+        display: none;
+    }
 }
 @media screen and (max-width:565px) {
     .artigo1{
