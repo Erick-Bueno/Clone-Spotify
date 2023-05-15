@@ -2,7 +2,35 @@ const cont = document.querySelector("#a")
         const cont2 = document.querySelector("#b")
         const setacima = document.querySelector("#setacima")
         const setabaixo = document.querySelector("#setabaixo")
+        const fechar = document.querySelector(".fechar")
+        const navbar = document.querySelector(".navbar")
+        const menuHambu = document.querySelector(".m-menu")
+        const over = document.querySelector(".overlay")
         cont2.style.display = "none"
+
+        fechar.addEventListener("click", function(){
+            navbar.style.width = "0%"
+            over.style.display = "none"
+            document.body.style.overflow = "auto"
+            navbar.classList.toggle("menuaberto")
+            
+        })
+        
+        menuHambu.addEventListener("click", function(){
+            navbar.style.width = "70%"
+            over.style.display = "block"
+            document.body.style.overflow = "hidden"
+            navbar.classList.toggle("menuaberto")
+            
+        })
+        over.addEventListener("click", function(){
+            navbar.style.width = "0%"
+            over.style.display = "none"
+            document.body.style.overflow = "auto"
+            navbar.classList.toggle("menuaberto")
+        })
+
+
         cont.addEventListener("click", function(){
             if(cont2.style.display == "none"){
                 cont2.style.display="block"
@@ -73,8 +101,8 @@ const cont = document.querySelector("#a")
             }
             else{
                 cont6.style.display = "none"
-                setacima3.classList.add("invivisivel")
                 setabaixo4.classList.remove("invisivel")
+                setacima3.classList.add("invisivel")
                 cont5.style.backgroundColor = "rgb(232, 229, 229)"
                 cont5.style.textDecoration= "underline"
             }

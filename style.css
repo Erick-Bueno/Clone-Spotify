@@ -41,6 +41,7 @@ nav{
     position: absolute;
     right: 80px;
     top: 30px;
+    
 
 }
 .barra{
@@ -60,7 +61,7 @@ nav{
     background-image: url("imgs/bubbles-dktp.svg"),linear-gradient(to right, rgb(244, 51, 244), purple);
     background-size: cover;
     background-position-y: 10%;
-   
+    justify-content: center;
     background-repeat: no-repeat;
 
   
@@ -115,6 +116,8 @@ nav{
 .imgss{
     width: 160px;
     height: 160px;
+  
+   
 }
 .imgi1{
     margin-left: 110PX;
@@ -139,19 +142,23 @@ nav{
 .imgs{
     width: 130px;
     height: 130px;
+    margin-top: 20px;
 }
 .paragrafos{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 14px;
 font-weight: bolder;
 line-height: 1.6;
+width: 330px;
+
 }
 .sec4{
 text-align: center;
 display: flex;
 flex-direction: row;
-margin-left: 110px;
 margin-bottom: 90px;
+justify-content: center;
+flex-wrap: wrap;
 }
 .sec6{
 text-align: center;
@@ -177,11 +184,12 @@ font-weight: bolder;
 font-size: 17px;
 cursor: pointer;
 padding: 25px;
-margin-left: 100px;
-width: 1100px;
+margin-left: 20px;
+width: 90%;
 position: relative;
 
 }
+
 .conteudo2:hover{
 text-decoration: underline;
 background-color:  rgb(232, 229, 229);
@@ -226,6 +234,7 @@ color: rgb(39, 152, 39);
 }
 .sec7{
 margin-bottom: 70px;
+
 }
 .sec8{
 background-image: url("imgs/lets-play.svg"),linear-gradient(to right, rgb(244, 51, 244), purple);
@@ -264,6 +273,7 @@ padding-bottom: 50px;
     display: flex;
     flex-direction: row;
     margin-bottom: 120px;
+    justify-content: center;
 }
 .logo3{
     width: 30px;
@@ -318,6 +328,7 @@ padding-bottom: 50px;
  width: 30px;
  position: relative;
  right: 70px;
+ top: 200px;
  border-radius: 50%;
  margin-left: 20px;
  
@@ -365,4 +376,204 @@ padding-bottom: 50px;
 }
 .AB{
     color: white;
+}
+.m-menu{
+    display: none;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.731);
+    z-index: 3;
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+   
+}
+.fechar{
+    display: none;
+}
+.invi{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    nav ul{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 22px;
+        margin-top: 50px;
+        width: 300px;
+        
+
+    }
+    nav ul li{
+        padding: 10px;
+        
+    }
+    nav{
+        background-color: black;
+        width: 0%;
+        right:0;
+        
+        height: 100%;
+        position: fixed;
+        top: 0;
+        overflow: hidden;
+        z-index: 10;
+        transition: 0.5s;
+       
+        
+    }
+    .menuaberto{
+        animation: aparecer 0.5s ease-in-out;
+    }
+    @keyframes aparecer {
+        from{opacity: 0;}
+        to{opacity: 1;}
+    }
+    .m-menu{
+        display: block;
+        width: 32px;
+       
+    }
+    .v-menu-m{
+        font-size: 42px;
+     
+        
+      
+    }
+    .fechar{
+        display: block;
+        width: 22px;
+        margin-top: 20px;
+        float: right;
+        margin-right: 40px;
+    }
+    .v-menu-m2{
+        font-size: 30px;
+    }
+    .invi{
+        display: block;
+    }
+ 
+    .titulo2{
+        font-size: 35px;
+        padding-left: 0px;
+        margin-bottom: 20px;
+        
+    }
+    .lista2{
+        margin-left: -40px;
+    }
+ 
+
+    
+}   
+@media screen and (max-width:425px){
+    .artigo1{
+        display: none;
+    }
+    .fot1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        position: relative;
+    }
+    .logo2{
+        margin-left: 0px;
+    }
+    .imgsss{
+        bottom: -30px;
+    }
+    .sec1{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding: 5px;
+        text-align: center;
+       
+    }
+    .titulo2{
+        font-size: 32px;
+    }
+    .lista3{
+       flex-direction: column;
+    }
+   .conteudo2{
+    width: 83%;
+   }
+   .lista3{
+    margin-left: 0px;
+   
+   }
+   .imgsss{
+    bottom: 103px;
+    left: 20px;
+   }
+   .v-menu-m{
+    font-size: 25px;
+ 
+    
+  
+}
+.v-menu-m2{
+    font-size: 20px;
+}
+a{
+    margin-left: -2px;
+}
+   
+}
+@media screen and (max-width:375px){
+    .conteudo2{
+        font-size: 13px;
+        width: 80%;
+    }
+    .setabaixo{
+        top: 25px;
+    }
+    .setacima{
+        top: 25px;
+    }
+    .conteudo3{
+        margin-left: 59px;
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    a{
+        margin-left: -2px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .fot3{
+        margin-right: 23px;
+    }
+    .terra{
+        right: 67px;
+    }
+    .conteudo2{
+        width: 70%;
+    }
+    .paragrafos{
+        width: 315px;
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    .setabaixo{
+        right: 4px;
+    }
+    .setacima{
+        right: 4px;
+    }
+    .conteudo3{
+        font-size: 12px;
+    }
+    a{
+        margin-left: -2px;
+    }
+
 }
