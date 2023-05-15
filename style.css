@@ -435,7 +435,7 @@ padding-bottom: 50px;
         height: 100%;
         position: fixed;
         top: 0;
-        overflow: scroll;
+        overflow-y: scroll;
         z-index: 10;
         transition: 0.5s;
        
@@ -583,10 +583,13 @@ padding-bottom: 50px;
    }
    .v-menu-m{
     font-size: 25px;
- 
-    
-  
-}
+ }
+ .setabaixo{
+    top: 15px;
+ }
+ .setacima{
+    top: 15px;
+ }
 
 .v-menu-m2{
     font-size: 20px;
