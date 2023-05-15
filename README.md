@@ -3,7 +3,6 @@
 
 Clone da pagina home do spotify com o obejtivo de praticar as tecnologias HTML, CSS E JavaScript
 
-Em breve: 
-Adição de responsividade para diversos tamanhos de telas
+
 
 link: https://erick-bueno.github.io/Clone-Spotify/
