@@ -471,7 +471,26 @@ padding-bottom: 50px;
  
 
     
-}   
+}  
+@media screen and (max-width:729px) {
+    .sec1{
+        padding-left: 50px;
+    }
+} 
+@media screen and (max-width:710px) {
+    .sec1{
+        padding-left: 50px;
+    }
+    .fot1{
+        margin-left: -50px;
+    }
+    .fot2{
+        font-size: 10px;
+    }
+    .terra{
+        right: 84px;
+    }
+} 
 @media screen and (max-width:425px){
     .artigo1{
         display: none;
