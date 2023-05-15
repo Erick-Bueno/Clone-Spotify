@@ -436,7 +436,7 @@ padding-bottom: 50px;
         height: 100%;
         position: fixed;
         top: 0;
-        overflow: hidden;
+        
         z-index: 10;
         transition: 0.5s;
        
