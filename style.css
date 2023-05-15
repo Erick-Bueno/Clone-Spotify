@@ -432,11 +432,10 @@ padding-bottom: 50px;
         background-color: black;
         width: 0%;
         right:0;
-        
         height: 100%;
         position: fixed;
         top: 0;
-        
+        overflow: scroll;
         z-index: 10;
         transition: 0.5s;
        
