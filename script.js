@@ -8,27 +8,18 @@ const cont = document.querySelector("#a")
         const over = document.querySelector(".overlay")
         cont2.style.display = "none"
 
-        fechar.addEventListener("click", function(){
-            navbar.style.width = "0%"
-            over.style.display = "none"
-            document.body.style.overflow = "auto"
+      /  fechar.addEventListener("click", function(){
             navbar.classList.toggle("menuaberto")
             
-        })
+        }) 
         
         menuHambu.addEventListener("click", function(){
-            navbar.style.width = "70%"
-            over.style.display = "block"
-            document.body.style.overflow = "hidden"
             navbar.classList.toggle("menuaberto")
             
         })
-        over.addEventListener("click", function(){
-            navbar.style.width = "0%"
-            over.style.display = "none"
-            document.body.style.overflow = "auto"
+      over.addEventListener("click", function(){
             navbar.classList.toggle("menuaberto")
-        })
+        }) 
 
 
         cont.addEventListener("click", function(){

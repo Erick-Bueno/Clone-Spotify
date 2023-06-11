@@ -9,6 +9,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     position: relative;
     padding: 20px;
     z-index: 2;
@@ -441,6 +442,12 @@ padding-bottom: 50px;
        
         
     }
+    .navbar.menuaberto{
+        width: 70%;
+    }
+    .navbar.menuaberto ~ .overlay{
+        display: block;
+    }
     .menuaberto{
         animation: aparecer 0.5s ease-in-out;
     }
@@ -452,6 +459,9 @@ padding-bottom: 50px;
         display: block;
         width: 32px;
        
+    }
+    .m-menu.menuaberto{
+        
     }
     .v-menu-m{
         font-size: 42px;
